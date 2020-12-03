@@ -1,12 +1,13 @@
 import React from "react";
 
-function AgendaItem() {
-    return (
-        <div>
-            <input type="checkbox" />
-            <p>Placeholder text</p>
-        </div>
-    )
+function AgendaItem(props) {
+  return (
+    <div>
+      <input type="checkbox" checked={props.completed} />
+      <p>{props.text}</p>
+      <hr />
+    </div>
+  );
 }
 
-export default AgendaItem
+export default AgendaItem;
