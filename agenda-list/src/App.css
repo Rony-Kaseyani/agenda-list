@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.container {
+  height: 100px;
+  width: 20%;
+  background-color: powderblue;
+}
+
+.input {
+  width: 10%;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+#child {
+  width: 88%;
+  display: inline-block;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

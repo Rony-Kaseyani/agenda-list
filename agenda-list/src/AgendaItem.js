@@ -2,13 +2,14 @@ import React from "react";
 
 function AgendaItem(props) {
   return (
-    <div>
+    <div className="container">
       <input
+        className="input"
         type="checkbox"
         checked={props.agenda.completed}
         onChange={() => props.handleChange(props.agenda.id)}
       />
-      <p>{props.agenda.text}</p>
+      <p classname="child">{props.agenda.text}</p>
       <hr />
     </div>
   );
